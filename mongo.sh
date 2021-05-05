@@ -5,7 +5,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb
 #Reload local package database.
 sudo apt-get update
 #Install the MongoDB packages.
-sudo apt-get install -y mongodb-org=4.4 mongodb-org-server=4.4 mongodb-org-shell=4.4 mongodb-org-mongos=4.4 mongodb-org-tools=4.4
+sudo apt-get install -y mongodb-org mongodb-org-server mongodb-org-shell mongodb-org-mongos mongodb-org-tools
 #Restart mongod
 systemctl restart mongod
 #Change default port mongod
