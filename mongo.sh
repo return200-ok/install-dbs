@@ -9,4 +9,4 @@ sudo apt-get install -y mongodb-org mongodb-org-server mongodb-org-shell mongodb
 #Restart mongod
 systemctl restart mongod
 #Change default port mongod
-mongo --port 27018
+#mongo --port 27018
