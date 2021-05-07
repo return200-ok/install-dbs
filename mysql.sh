@@ -6,3 +6,5 @@ sudo dpkg -i /PATH/version-specific-package-name.deb
 cat /etc/apt/source.list.d/mysql.list
 #Choose the versions of the MySQL server during the installation of the package
 sudo apt-get update
+#Install
+sudo apt install mysql-server
